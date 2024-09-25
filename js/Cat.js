@@ -12,3 +12,19 @@ export class Cat {
         return `Sveiki, as ${this.name}. Esu ${this.fur} spalvos. duok ${this.legs} eur`;
     }
 }
+
+/*
+CAR
+- brandas
+- modelis
+- kuro bako talpa
+- kuro sanaudos 100km
+
+- ijungtiVarykli()
+- isjungtiVarykli()
+- vaziuoti(atstumas)
+- uzpiltiKuro(litrai)
+- kiekLikoKuroBake()
+- kokiAtstumaGaliDarNuvaziuoti()
+- arGaliPrivaziuotiDegaline(atstumas km)
+*/

@@ -4,6 +4,7 @@ OOP - object oriented programming
 - turi funkcionaluma, kuris manipulioja savo savybemis
 */
 
+import { Car } from "./js/Car.js";
 import { Cat } from "./js/Cat.js";
 import { Dog } from "./js/Dog.js";
 
@@ -25,6 +26,16 @@ console.clear();
 const kurkis = new Cat('Kurkis', 'grey');
 console.log(kurkis.hi());
 console.log(kurkis.intro());
+
+console.clear();
+
+const bmw = new Car('BMW', 'M3 GTR', 63, 13);
+console.log(bmw.startEngine());
+console.log(bmw.checkFuel());
+
+
+
+
 
 
 
