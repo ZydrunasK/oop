@@ -4,9 +4,9 @@ export class Car {
         this.model = model;
         this.tankSize = tankSize;
         this.fuelConsumption = fuelConsumption;
+        this.fuel = 0;
+        this.engineOn = false;
     }
-    fuel = 0;
-    engineOn = false;
     startEngine() {
         if(!this.engineOn) {
             this.engineOn = true;
@@ -41,7 +41,7 @@ export class Car {
         return 'Insert a normal number';
     }
     remainingRange() {
-        return `Remaining range is ${((this.fuel / this.fuelConsumption) * 100).toFixed(2)}km`
+        return `Remaining range: ${((this.fuel / this.fuelConsumption) * 100).toFixed(2)}km`
     }
     canItReachGasStation(distance) {
         if (typeof distance === 'number'
@@ -61,7 +61,7 @@ export class Car {
             ?? distance > 0) {
                 if (range >= distance) {
                     this.fuel -= (distance * (11/100));
-                    return `distance driven ${distance}km`;
+                    return `distance driven: ${distance}km`;
                 }
                 if (range < distance) {
                     return 'not enough fuel for this trip';
