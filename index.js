@@ -21,30 +21,46 @@ console.log(bona.eat());
 console.log(bona.bonesLeft());
 console.log(bona.bones);
 
-console.clear();
+// console.clear();
 
 const kurkis = new Cat('Kurkis', 'grey');
 console.log(kurkis.hi());
 console.log(kurkis.intro());
 
-console.clear();
+// console.clear();
 
-const bmw = new Car('BMW', 'M3 GTR', 63, 11);
-console.log(bmw.startEngine());
-console.log(bmw.checkFuel());
-console.log(bmw.fillFuel(2.533333));
-console.log(bmw.fillFuel(65));
-console.log(bmw.checkFuel());
-console.log(bmw.remainingRange());
-console.log(bmw.drive(600));
-console.log(bmw.drive(234));
-console.log(bmw.checkFuel());
-console.log(bmw.remainingRange());
-
-
+// const bmw = new Car('BMW', 'M3 GTR', 63, 11);
+// console.log(bmw.startEngine());
+// console.log(bmw.checkFuel());
+// console.log(bmw.fillFuel(2.533333));
+// console.log(bmw.fillFuel(65));
+// console.log(bmw.checkFuel());
+// console.log(bmw.remainingRange());
+// console.log(bmw.drive(600));
+// console.log(bmw.drive(234));
+// console.log(bmw.checkFuel());
+// console.log(bmw.remainingRange());
 
 
 
 
 
 
+
+
+
+/*
+CAR
+- brandas
+- modelis
+- kuro bako talpa
+- kuro sanaudos 100km
+
+- ijungtiVarykli()
+- isjungtiVarykli()
+- vaziuoti(atstumas)
+- uzpiltiKuro(litrai)
+- kiekLikoKuroBake()
+- kokiAtstumaGaliDarNuvaziuoti()
+- arGaliPrivaziuotiDegaline(atstumas km)
+*/

@@ -1,18 +1,13 @@
-export class Dog {
-    constructor(name, fur) {
-        this.name = name;
-        this.fur = fur;
-        this.legs = 4;
+import { Pet } from "./Pet.js";
+
+export class Dog extends Pet{
+    constructor(name, color) {
+        super(name, color);
         this.bones = 0;
         this.eatenBones = 0;
+        this.sound = 'wuf';
     }
 
-    hi() {
-        return `Sveiki, as ${this.name}!`;
-    }
-    intro() {
-        return `Sveiki, as ${this.name}. Esu ${this.fur} spalvos. duok ${this.legs} eur`;
-    }
     giveBone(bonesCount) {
         if (typeof bonesCount !== 'number'
             || !isFinite(bonesCount)
