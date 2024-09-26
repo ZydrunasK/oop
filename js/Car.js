@@ -61,7 +61,7 @@ export class Car {
             ?? distance > 0) {
                 if (range >= distance) {
                     this.fuel -= (distance * (11/100));
-                    return `nuvaziuota ${distance}km`;
+                    return `distance driven ${distance}km`;
                 }
                 if (range < distance) {
                     return 'not enough fuel for this trip';
