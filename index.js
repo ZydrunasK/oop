@@ -29,9 +29,13 @@ console.log(kurkis.intro());
 
 console.clear();
 
-const bmw = new Car('BMW', 'M3 GTR', 63, 13);
+const bmw = new Car('BMW', 'M3 GTR', 63, 11);
 console.log(bmw.startEngine());
 console.log(bmw.checkFuel());
+console.log(bmw.fillFuel(2.533333));
+console.log(bmw.fillFuel(65));
+console.log(bmw.checkFuel());
+console.log(bmw.remainingRange());
 
 
 
