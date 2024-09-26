@@ -60,7 +60,11 @@ export class Car {
             ?? isFinite(distance)
             ?? distance > 0) {
                 if (range >= distance) {
-                    
+                    this.fuel -= (distance * (11/100));
+                    return `nuvaziuota ${distance}km`;
+                }
+                if (range < distance) {
+                    return 'not enough fuel for this trip';
                 }
         }
         return `Distance must be a normal number in km, without notations`

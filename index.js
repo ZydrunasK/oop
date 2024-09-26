@@ -36,6 +36,8 @@ console.log(bmw.fillFuel(2.533333));
 console.log(bmw.fillFuel(65));
 console.log(bmw.checkFuel());
 console.log(bmw.remainingRange());
+console.log(bmw.drive(600));
+console.log(bmw.checkFuel());
 
 
 
